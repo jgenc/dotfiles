@@ -1,0 +1,4 @@
+# For Gnome-Based installations, if VPN connection is needed
+# please download with apt (or other package manager)
+# sudo apt install network-manager-*-gnome 
+# where * is type of VPN connection, eg. * = pptp
