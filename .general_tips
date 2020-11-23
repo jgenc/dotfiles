@@ -2,3 +2,15 @@
 # please download with apt (or other package manager)
 # sudo apt install network-manager-*-gnome 
 # where * is type of VPN connection, eg. * = pptp
+
+
+# For printers -- it's generally better to add any printers
+# from the IP address, which doesn't usually change
+# Ok, now for drivers i will probaly have to check the net 
+# every time it's needed to, but whatever.
+# More specifically, for the Epson L3150 -- in Debian -- What I 
+# did was to first install from apt the printer-driver-all
+# and then I also installed CUPS, but I really don't like
+# that interface.. 
+
+
