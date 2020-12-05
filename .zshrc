@@ -8,7 +8,7 @@ export ZSH="/home/jgen/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="rkj-repos"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -68,7 +68,8 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
+
 
 source $ZSH/oh-my-zsh.sh
 
@@ -97,9 +98,18 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias aptug="sudo apt upgrade"
-alias aptu="sudo apt update"
-alias apti="sudo apt install"
-alias aptr="sudo apt remove"
+
+# General aliases
+alias cls="clear"
+alias ls="colorls --sd -A"
+
+# Yay aliases
+alias ys="yay -S"
+alias ysu="yay -U" # Install local package
+alias yc="yay -Yc" # Remove Package
+alias yug="yay -Syu --devel --timeupdate"
+
+# neovim aliases
 alias v="nvim"
-alias ls="ls -a"
+alias sv="sudo nvim"
+
