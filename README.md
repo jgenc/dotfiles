@@ -8,5 +8,5 @@ This repo exists only to store my dotfiles, maybe will become public when I am t
 # Recommended Apps
 * PDF Viewer with tabs: **qpdfviewer**
 * Music app: **Tauon Music**
-* Application Launcher: **Rofi** (pretty good for now!), maybe Ulauncher
+* Application Launcher: **Rofi** (pretty good for now), maybe Ulauncher
 * Photo app with good exif tab: **pix** [also install: dcraw(raw photos support), exiv2(metadata support), gstreamer(video support), libchamplain(map viewer), libjpeg-turbo(jpeg writing support)]
