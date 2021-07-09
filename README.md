@@ -4,18 +4,17 @@ This repository exists to store my configuration files, notes, recommendations, 
 
 # Notes
 * **Nautilus Default Terminal** To properly change default terminal in nautilus install https://github.com/Stunkymonkey/nautilus-open-any-terminal and then change the default value with dconf-edit. Pretty easy and straightforward, but most importantly, it works flawlessly.
-* **Fonts:** A really good ui font is Source Code Pro and also, a really good font for terminal/coding is FantasqueSansMono Nerd Font
+* **Fonts:** A really good UI font is Source Code Pro and also, a really good font for terminal/coding is FantasqueSansMono Nerd Font. I also like JetBrains Mono, both as a UI font and a coding font.
 * **Lutris:** ((This is kindof useless now, since I can easily select a custom executable with the advanced option. lmao)) --> To properly install and use a custom Proton version, I need to extract only the files contained in the dist folder of the tarball to ~/.local/lutris/runners/wine/<\name of proton version>.
-* **Schedule Jobs:** I was looking for a way to run some tasks on specific intervals and I stumbled upon cron, more specifically [cronnie](https://archlinux.org/packages/core/x86_64/cronie/). I have made a new folder, ~/.startup/ where I save all the .sh files I need for the tasks. Syntax is pretty simple, easily found on the Arch wiki.
+* **Schedule Jobs: (Not using this anymore)** I was looking for a way to run some tasks on specific intervals and I stumbled upon cron, more specifically [cronnie](https://archlinux.org/packages/core/x86_64/cronie/). I have made a new folder, ~/.startup/ where I save all the .sh files I need for the tasks. Syntax is pretty simple, easily found on the Arch wiki. 
 * **RazerGenie:** This is a musthave app for everyone who owns Razer mice/keyboards. Without this, they're pretty much stuck on default settings. 
 
 # Recommended Apps
 * PDF Viewer with tabs: **qpdfviewer**
 * Music app: **Tauon Music**
-* Music rip: **Freezer** 
 * Application Launcher: **Rofi**
 * Photo app with good exif tab: **pix** (check optional dependacies on the AUR)
-* Wallpaper Changer: **nitrogen** typically used for WMs, but I like it for randomly changing wallpapers (combined with a cron schedule).
+* Wallpaper Changer: **nitrogen** typically used for WMs, but I like it for randomly changing wallpapers.
 
 # Gnome Configuration
 * **Shell:** [Flat-remix-blue](https://www.gnome-look.org/p/1013030/)
@@ -36,16 +35,6 @@ This repository exists to store my configuration files, notes, recommendations, 
 * **Fisher:** It's a package manager for the fish shell.
     1. [hydro](https://github.com/jorgebucaran/hydro) This is a simple fish prompt, seems cool.
 
-# i3 Configuration
-> I use i3-gaps, I like having gaps between windows
-* **autotiling:** a necessary AUR package, since i3 doesn't have auto tiling, and I really like that feature.
-* **Compositor:** picom
-* **Applets:** 
-> First of all, why are applets needed? Well, for now atleast, I don't have the necessary plugins in my polybar theme to manage my network connection and mix my audio. I've listed some applets that are enough for the job.
-1. network-manager-applet, AUR. The command to run it is nm-applet
-2. Audio Applets:
-    1. pasystray, AUR. The command is the same and this applet is for audio 
-    2. indicator-sound-switcher, AUR        
-    3. pa-applet-git, AUR 
-* **Polybar:** I've got the hack theme at the time writing this. If I change to something that I really like it will probably be in this repo.
-* **betterlockscreen:** This is a fork of i3lock which is fast and simple. To set it up check the github page. There's an AUR package for this.
+# WM
+**Regolith**
+I really like i3, but the combination of GNOME with it is superb. Also, I use the ayu-dark theme, pretty cool!
