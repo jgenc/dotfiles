@@ -41,9 +41,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     "Vim-which-key, similar to emacs
     Plug 'liuchengxu/vim-which-key'
 
-    "Themes
-    Plug 'rafi/awesome-vim-colorschemes'
-
     "Plugin for the startpage
     Plug 'mhinz/vim-startify'
 
