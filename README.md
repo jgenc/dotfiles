@@ -29,7 +29,7 @@ This repository exists to store my configuration files, notes, recommendations, 
     6. [Audio Switcher](https://extensions.gnome.org/extension/1092/audio-switcher/) Why isn't this included in GNOME?
     7. [Application Volume Mixer](https://extensions.gnome.org/extension/3499/application-volume-mixer/) Why isn't this also included in GNOME?
     8. [Tray Icons: Reloaded](https://extensions.gnome.org/extension/2890/tray-icons-reloaded/) Part 3 of: Why isn't this included in GNOME?
-    9. [Pop-OS Tiling](https://aur.archlinux.org/packages/gnome-shell-extension-pop-shell-git/) Literally Pop-OS tiling, nothing fancy. Might switch to WM 
+    9. [Pop-OS Tiling](https://aur.archlinux.org/packages/gnome-shell-extension-pop-shell-git/) Literally Pop-OS tiling, nothing fancy. Might switch to a WM 
 
 # Fish shell
 * **Fisher:** It's a package manager for the fish shell.
@@ -37,4 +37,4 @@ This repository exists to store my configuration files, notes, recommendations, 
 
 # WM
 **Regolith**
-I really like i3, but the combination of GNOME with it is superb. Also, I use the ayu-dark theme, pretty cool!
+I really like i3, but the combination of i3+Gnome is superb. Also, I use the ayu-dark theme, pretty cool!
