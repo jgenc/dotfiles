@@ -8,4 +8,4 @@
 ***    
 
 #### 
-    - Coc will probably *not* work on most machines, as node is not a program tha all programmers install on their machines. As of writing this, I have not fixed it because I do not need it on Windows. It shouldn't be hard to fix.
+- Coc will probably *not* work on most machines, as node is not a program tha all programmers install on their machines. As of writing this, I have not fixed it because I do not need it on Windows. It shouldn't be hard to fix.
