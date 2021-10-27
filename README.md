@@ -1,6 +1,18 @@
 # dotfiles
 
-This repository exists to store my configuration files, notes, recommendations, etc. I'll probably make it public in the future, when I feel confident in my configurations.
+This repository exists to store my configuration files, notes, recommendations, etc.
+
+***
+
+# Screenshots of configured programs
+
+### Neovim
+![Neovim Screenshot](/media/neovim.png)
+
+### fish shell
+![Fish screenshot](/media/fish.png)
+
+***
 
 # Notes
 * **Nautilus Default Terminal** To properly change default terminal in nautilus install https://github.com/Stunkymonkey/nautilus-open-any-terminal and then change the default value with dconf-edit. Pretty easy and straightforward, but most importantly, it works flawlessly.

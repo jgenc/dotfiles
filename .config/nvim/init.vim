@@ -8,7 +8,7 @@ source $HOME/.config/nvim/plug-config/rnvimr.vim
 
 " For Monokai tasty
 "let g:vim_monokai_tasty_italic = 1
-let g:airline_theme='xcodedarkhc'
+let g:airline_theme='lessnoise'
 "colo vim-monokai-tasty
 
 " A cool light theme
