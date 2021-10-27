@@ -1,6 +1,6 @@
 ### General notes about neovim
-* (**C**onquer **o**f **C**ompletion)[https://github.com/neoclide/coc.nvim]
-    - It is a very cool plugin that helps with autocompletion on many file types. To support a specific PL one should refer (here)[https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions] and install any of the desired language servers using the command `:CocInstall`
+* [**C**onquer **o**f **C**ompletion](https://github.com/neoclide/coc.nvim)
+    - It is a very cool plugin that helps with autocompletion on many file types. To support a specific PL one should refer [here](https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions) and install any of the desired language servers using the command `:CocInstall`
         - Note on C/C++, the **clangd** package is required to be installed.
 
 * Theme
