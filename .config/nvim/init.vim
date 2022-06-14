@@ -1,22 +1,27 @@
-source $HOME/.config/nvim/vim-plug/plugins.vim
-source $HOME/.config/nvim/general/settings.vim
-source $HOME/.config/nvim/keys/mappings.vim
-source $HOME/.config/nvim/keys/which-key.vim
-source $HOME/.config/nvim/plug-config/coc.vim
-source $HOME/.config/nvim/themes/airline.vim
-source $HOME/.config/nvim/plug-config/rnvimr.vim
+" Settings
+set number
+set autoindent
+set tabstop=4
+set shiftwidth=4
+set smarttab
+set softtabstop=4
+set mouse=a
+set termguicolors
+set cc=80
+set clipboard=unnamedplus
+set ttyfast
 
-" For Monokai tasty
-"let g:vim_monokai_tasty_italic = 1
-let g:airline_theme='lessnoise'
-"colo vim-monokai-tasty
+source $HOME/.config/nvim/keys.vim
+source $HOME/.config/nvim/plug.vim
+source $HOME/.config/nvim/lua/treesitter.lua
 
-" A cool light theme
-"set background=light
-"colo toast
+" Colorscheme settings
+"	Note: For neon
+"		There are various options, to see them run `:help neon.txt`
+let g:neon_style = "dark"
+let g:neon_italic_keyword = v:true
+let g:neon_italic_boolean = v:true
+let g:neon_italic_function = v:true
+let g:neon_bold = v:true
 
-set background=light
-colorscheme xcodedarkhc 
-
-" System wide config
-let g:nvim_system_wide=1
+colorscheme neon
