@@ -1,12 +1,12 @@
 # dotfiles
 *This repository exists to store my configuration files, notes, recommendations, etc.*
 
-# Notes
+## Notes
  **Fonts:** The terminal/editing font I use everywhere now is [MesloLGS NF](https://github.com/romkatv/powerlevel10k/blob/master/font.md). AFAIK, there are no ligatures, but I will probably port some from another font to this one some day 
 * **Schedule Jobs:** I was looking for a way to run some tasks on specific intervals and I stumbled upon cron, more specifically [cronnie](https://archlinux.org/packages/core/x86_64/cronie/). I have made a new folder, ~/.startup/ where I save all the .sh files I need for the tasks. Syntax is pretty simple, easily found on the Arch wiki. 
 * **RazerGenie:** This is a musthave app for everyone who owns Razer mice/keyboards. Without this, they're pretty much stuck on default settings. 
 
-# Gnome Configuration
+## Gnome Configuration
 * **Extensions:**
     1. [Audio Switcher](https://extensions.gnome.org/extension/1092/audio-switcher/) 
     2. [Application Volume Mixer](https://extensions.gnome.org/extension/3499/application-volume-mixer/) 
@@ -18,6 +18,12 @@
 	8. [Unite](https://extensions.gnome.org/extension/1287/unite/)
 	
 
-# Fish shell
+## Fish shell
 * **Functions**
-	1. goodnight - Upgrades system and shuts down 
+	1. goodnight - Upgrades system and shuts down
+
+## Tmux configuration
+* Files
+    - *.tmux.conf*: Contains all configuration
+      - Currently using tpm
+      - Examples taken from tony/tmux-config 
