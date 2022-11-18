@@ -1,0 +1,10 @@
+{
+	"directories" : [
+		"kitty",
+		"vim",
+		"nvim",
+		"fish",
+		"ranger",
+		"mpv"
+	]
+}
