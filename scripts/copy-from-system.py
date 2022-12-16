@@ -10,6 +10,9 @@ dirs = json.load(open("./directories.json", "r"))["directories"]
 for dir in dirs:
     src = f"{os.environ['HOME']}/.config/{dir}"
     dst = os.path.join(os.getcwd(), f".config/{dir}")
+    dst = dst.replace("/scripts", "")
+
+    print(dst)
 
     if not os.path.exists(src):
         continue
