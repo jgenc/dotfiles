@@ -8,4 +8,6 @@ function goodnight --description 'Upgrade system and shut down. Usaully used bef
 	touch $dir/$fdate.log
 	sudo dnf upgrade -y --refresh | tee $dir/$fdate.log 
 	shutdown
+    set -l myname (whoami)
+    echo "goodnight $myname"
 end

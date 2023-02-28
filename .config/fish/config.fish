@@ -4,6 +4,7 @@ end
 
 # Environment vars
 set -gx EDITOR /usr/bin/vim
+set -gx FLYCTL_INSTALL "/home/jorgen/.fly" 
 
 # Aliases
 #alias v="nvim"
