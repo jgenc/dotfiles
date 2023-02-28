@@ -41,3 +41,9 @@ Through the [fisher](https://github.com/jorgebucaran/fisher) package manager you
     4. Search History (`R` for reverse-i-search)
         * <kbd>Ctrl</kbd> + <kbd>R</kbd>
     5. There are also some shortcuts for looking at variables and processes, however I do not use them for now. They might be useful later on though.
+
+## Neovim
+
+### Keybinds
+
+They are documented [here](https://github.com/jgenc/dotfiles/blob/main/.config/nvim/README.md).
