@@ -10,7 +10,7 @@
 - <kbd>Space</kbd> + <kbd>y</kbd> : Copy to system clipboard
 - <kbd>Space</kbd> + <kbd>s</kbd> : Replace word on cursor
 - <kbd>Space</kbd> + <kbd>qq</kbd> : Change to the dark theme
-- <kbd>Space</kbd> + <kbd>s</kbd> : Change to the light theme
+- <kbd>Space</kbd> + <kbd>qw</kbd> : Change to the light theme
 
 ### Visual Mode
 
