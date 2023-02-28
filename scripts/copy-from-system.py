@@ -9,6 +9,8 @@ dirs = json.load(open("./directories.json", "r"))["directories"]
 
 for dir in dirs:
     src = f"{os.environ['HOME']}/.config/{dir}"
+    # TODO:
+    # Test if cwd is the dotfiles repository, don't just run anywhere. 
     dst = os.path.join(os.getcwd(), f".config/{dir}")
     dst = dst.replace("/scripts", "")
 
