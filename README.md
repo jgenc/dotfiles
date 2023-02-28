@@ -21,9 +21,9 @@
 
 ### Functions
 
-1. `goodnight` updates systems, saves `dnf` logs to a hidden directory in the Documents folder. Some time in the future I will do something wiht that data, but for now I am just harvesting it.
-2. `kitty-theme` changes the `kitty` terminal theme. Position argument is needed; `l` for the light theme and `d` for the dark theme
-3. `codeh` code here. Opens VSCode in cwd and dies
+1. `goodnight` updates system and saves `dnf` logs to a hidden directory in the Documents folder. Some time in the future I will do something with that data, but for now I am just saving it.
+2. `kitty-theme` changes the `kitty` terminal theme. Position argument is needed: `l` for the light theme and `d` for the dark theme
+3. `codeh` code here. Opens VSCode in cwd and kills terminal
 4. `minecraft` Opens a Minecraft Launcher. Machine specific, not really useful
 
 ### Extensions
@@ -31,8 +31,8 @@
 Through the [fisher](https://github.com/jorgebucaran/fisher) package manager you can download the following extensions.
 
 1. [tide](https://github.com/IlanCosman/tide) The *ULTIMATE* prompt for fish! It's good.
-2. [fzf](https://github.com/PatrickF1/fzf.fish), A **very** helpful extensions, provides the follwing:
-    1. Search Directory (`F` for file)
+2. [fzf](https://github.com/PatrickF1/fzf.fish), A **very** helpful extension, provides the following:
+    1. Search Directory (`F` for files)
         * <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>F</kbd>
     2. Git Log (`L` for log)
         * <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>L</kbd>
@@ -40,4 +40,4 @@ Through the [fisher](https://github.com/jorgebucaran/fisher) package manager you
         * <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd>
     4. Search History (`R` for reverse-i-search)
         * <kbd>Ctrl</kbd> + <kbd>R</kbd>
-    5. There are also some for variables and processes, I do not use them at all for now, they might be useful later on.
+    5. There are also some shortcuts for looking at variables and processes, however I do not use them for now. They might be useful later on though.
