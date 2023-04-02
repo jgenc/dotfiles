@@ -6,6 +6,10 @@ import shutil
 backup_directory = f"{os.environ['HOME']}/.cache/dotfiles-backup"
 
 if not os.path.isdir(backup_directory):
+    cache_directory = backup_directory.replace("/dotfiles-backup", "")
+    if not os.path.isdir(cache_directory):
+        print('Cache directory does not exist. Creating it.')
+        os.mkdir(cache_directory)
     print('Backup directory does not exist. Creating it.')
     os.mkdir(backup_directory)
 
@@ -20,11 +24,13 @@ for dir in os.listdir('../.config/'):
 
     # If .config dir exists, make a backup of it
     if os.path.isdir(dst):
-        print(f'Directory \'{dir}\' already exists at .config/. Making a backup...')
+        print(
+            f'Directory \'{dir}\' already exists at .config/. Making a backup...')
         # If there is a backup of it already, replace it
         user_backup_dir = os.path.join(backup_directory, dir)
         if os.path.isdir(user_backup_dir):
-            print(f'Oh, there exists a previous backup from this script for \'{dir}\'. Overwriting..')
+            print(
+                f'Oh, there exists a previous backup from this script for \'{dir}\'. Overwriting..')
             shutil.rmtree(user_backup_dir)
         # Move original directory to backup
         shutil.move(dst, backup_directory)
