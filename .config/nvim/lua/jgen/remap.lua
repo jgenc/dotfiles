@@ -23,14 +23,17 @@ vim.keymap.set("n", "N", "Nzzzv")
 vim.keymap.set("x", "<leader>p", "\"_dP")
 
 -- Copy to system clipboard
-vim.keymap.set("n", "<leader>y", "\"+y")
-vim.keymap.set("v", "<leader>y", "\"+y")
+vim.keymap.set({"n", "v"}, "<leader>y", "\"+y")
 
 -- Space-s: Replace word on cursor
 vim.keymap.set("n", "<leader>s", ":%s/\\<<C-r><C-w>\\>/<C-r><C-w>/gI<Left><Left><Left>")
 
 -- Change theme
-vim.keymap.set("n", "<leader>qq", function() vim.cmd "colorscheme moonfly" end)
+vim.keymap.set("n", "<leader>qq", function() vim.cmd "colorscheme moonfl" end)
 vim.keymap.set("n", "<leader>qw", function()
     vim.cmd "colorscheme onelight"
 end)
+
+-- Swap tabs
+vim.keymap.set("n", "<leader>]", ":tabnext<CR>")
+vim.keymap.set("n", "<leader>[", ":tabprevious<CR>")
