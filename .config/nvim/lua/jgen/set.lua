@@ -33,3 +33,5 @@ vim.opt.colorcolumn = "80"
 vim.opt.guicursor = "n-v-c:block-Cursor,i-ci-ve:ver25-Cursor,r-cr-o:hor20-Cursor"
 
 vim.g.mapleader = " "
+
+vim.opt.cursorline = true

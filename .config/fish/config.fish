@@ -23,3 +23,13 @@ alias s="kitty +kitten ssh"
 alias gst="git status"
 alias gp="git push"
 alias ga="git add"
+
+# ls replacer
+alias ls="exa --icons --header"
+
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+#eval /usr/bin/conda "shell.fish" "hook" $argv | source
+# <<< conda initialize <<<
+
