@@ -27,6 +27,9 @@ alias ga="git add"
 # ls replacer
 alias ls="exa --icons --header"
 
+# Python
+alias p="python"
+
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
