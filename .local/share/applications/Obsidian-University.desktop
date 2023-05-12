@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Obsidian University 
+Exec=flatpak run md.obsidian.Obsidian %u obsidian://open?vault=University
+Terminal=false
+Type=Application
+Icon=md.obsidian.Obsidian.University.png
+StartupWMClass=obsidian
+Comment=Obsidian
+MimeType=x-scheme-handler/obsidian;
+Categories=Office;
