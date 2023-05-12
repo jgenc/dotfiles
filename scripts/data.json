@@ -5,6 +5,10 @@
 		"nvim",
 		"fish",
 		"ranger",
-		"mpv"
-	]
+		"mpv",
+    "alacritty"
+	],
+  "home_files": [
+    ".tmux.conf"
+  ]
 }
