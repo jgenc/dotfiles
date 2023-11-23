@@ -5,6 +5,7 @@ end
 # Environment vars
 set -gx EDITOR /usr/bin/vim
 set -gx FLYCTL_INSTALL "/home/jorgen/.fly" 
+set -gx DENO_INSTALL "/home/jorgen/.deno"
 
 # ==================================
 #           Aliases
