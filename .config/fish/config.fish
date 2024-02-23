@@ -18,7 +18,7 @@ alias r="ranger"
 alias ru="ranger ~/Workspace/university/"
 
 # This is used to spawn a thin wrapper for SSH, as it barely works on its own 
-alias s="kitty +kitten ssh"
+# alias s="kitty +kitten ssh"
 
 # Git
 alias gst="git status"
@@ -29,7 +29,7 @@ alias ga="git add"
 alias ls="exa --icons --header"
 
 # Python
-alias p="python"
+#alias p="python"
 
 
 # >>> conda initialize >>>
