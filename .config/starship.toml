@@ -1,0 +1,22 @@
+format = "(bold green)$directory$all($character)"
+
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# Inserts a blank line between shell prompts
+add_newline = false
+
+[username]
+disabled = true
+style_user = "yellow bold"
+style_root = "red bold"
+format = "[$user]($style) in "
+show_always = true
+
+[character]
+# The 'success_symbol' segment is being set to '➜' with the color 'bold green'
+success_symbol = '[⌥\)](bold green)'
+error_symbol = '[⌥\)](bold red)'
+
+[package]
+disabled = true
