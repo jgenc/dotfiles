@@ -1,0 +1,38 @@
+fish_color_autosuggestion 666
+fish_color_cancel --reverse
+fish_color_command ffffff
+fish_color_comment '888'  '--italics'
+fish_color_cwd 0A0
+fish_color_cwd_root A00
+fish_color_end 009900
+fish_color_error F22
+fish_color_escape 0AA
+fish_color_history_current 0AA
+fish_color_host normal
+fish_color_host_remote
+fish_color_keyword
+fish_color_match 0AA
+fish_color_normal B2B2B2
+fish_color_operator 0AA
+fish_color_option
+fish_color_param ccccff
+fish_color_quote 9ce781
+fish_color_redirection FFF
+fish_color_search_match --background=533
+fish_color_selection --background=B218B2
+fish_color_status red
+fish_color_user brgreen
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion BBB
+fish_pager_color_description 666
+fish_pager_color_prefix '0AA'  '--underline'
+fish_pager_color_progress 0AA
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background --background=333
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix
