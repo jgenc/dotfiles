@@ -1,14 +1,24 @@
 {
-	"directories" : [
-		"kitty",
-		"vim",
-		"nvim",
-		"fish",
-		"ranger",
-		"mpv",
+  "config_directories": [
+    "kitty",
+    "vim",
+    "nvim",
+    "fish",
+    "ranger",
+    "mpv",
     "alacritty"
-	],
+  ],
+  "config_files": [
+    "starship.toml"
+  ],
   "home_files": [
-    ".tmux.conf"
-  ]
+    ".tmux.conf",
+    ".zshrc"
+  ],
+  "special_directories": {
+    "zsh_custom": {
+      "system_path": ".oh-my-zsh/custom",
+      "repo_path": "zsh/custom"
+    }
+  }
 }
