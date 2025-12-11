@@ -1,2 +1,6 @@
 .config/kitty/kitty-themes/
 .vscode/launch.json
+
+*.DS_Store
+*fish_variables
+fishd.tmp*
